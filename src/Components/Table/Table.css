@@ -1,0 +1,58 @@
+.Tableset {
+  width: 596.66px;
+  height: 322.38px;
+  background: #ffffff;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 19.0044px;
+  border-collapse: collapse;
+}
+table caption.title {
+  width: 195px;
+  height: 25px;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+  color: #404040;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+table th {
+  width: 59px;
+  height: 17px;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #aeaeae;
+  padding-right: 20px;
+}
+
+table td {
+  width: 92px;
+  height: 17px;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c7c7c7;
+  border-bottom: 1px solid #ececec;
+  text-align: center;
+  padding-top: 20px;
+}
+
+table td:first-child {
+  color: #404040;
+}
+
+table td:last-child {
+  color: #404040;
+}
+th, td {
+    padding: 15px;}

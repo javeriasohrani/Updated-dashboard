@@ -1,0 +1,235 @@
+.numbering {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.card-wrap {
+  display: flex;
+  width: 596.66px;
+  height: 363.12px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  box-shadow: 0px 16px 24px rgb(0 0 0 / 6%), 0px 2px 6px rgb(0 0 0 / 4%),
+    0px 0px 1px rgb(0 0 0 / 4%);
+  border-radius: 28px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.title {
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+  color: #404040;
+  margin-bottom: 13px;
+  margin-left: 20px;
+}
+
+hr.line {
+  height: 199.86px;
+  border: 1px solid #e8e8e8;
+}
+.numbering span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 22px;
+  color: #197bbd;
+}
+.numbering h6 {
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #aeaeae;
+  margin-top: 5px;
+}
+
+.numbers span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #439a86;
+}
+.numbers h6 {
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #aeaeae;
+  margin-top: 5px;
+}
+
+.number span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #bb4430;
+}
+.number h6 {
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #aeaeae;
+  margin-top: 5px;
+}
+
+.progressBar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  margin: 10px;
+  width: 320.43px;
+  height: 9.47px;
+  background: #f1f1f1;
+  border-radius: 13.617px;
+}
+
+.progressBar:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 10px rgba(56, 56, 55, 0.8);
+}
+
+.progressBar:hover .progress {
+  background-image: linear-gradient(
+    to right,
+    rgba(249, 88, 66, 0.8),
+    rgba(246, 182, 85, 0.8),
+    rgba(249, 219, 99, 0.8),
+    rgba(8, 251, 120, 0.8),
+    rgba(69, 147, 232, 0.8),
+    rgba(149, 72, 217, 0.8),
+    rgba(151, 65, 196, 0.8)
+  );
+}
+
+.progress {
+  height: 30px;
+  width: 0;
+  border-radius: 5px;
+  transition: width 0.5s ease-in;
+}
+
+.bar1 {
+  width: 69.25px;
+  height: 9.06px;
+  background: #197bbd;
+  border-radius: 10.7766px;
+}
+
+.payment span {
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #aeaeae;
+}
+.payment h6 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #404040;
+}
+.payment {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
